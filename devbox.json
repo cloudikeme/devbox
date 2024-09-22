@@ -69,7 +69,9 @@
       "alias s='git commit -m \"$@\"'",
       "alias d='git push -u origin main'",
       "alias e='git push -u upstream main'",
-      "alias q='git push -u origin dev'"
+      "alias q='git push -u origin dev'",
+      "alias devbox='cd ~/devbox && devbox shell'",
+      "alias blog='cd ~/blog.cloudikeme.com && code .'"
     ],
     "scripts": {
       "test": [
