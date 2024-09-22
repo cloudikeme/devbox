@@ -257,67 +257,67 @@
         }
       }
     },
-    "azure-cli@2.56.0": {
-      "last_modified": "2024-03-18T21:18:48Z",
-      "resolved": "github:NixOS/nixpkgs/ca00bc5e9419b97c1a11210f08f9338e6ba7515c#azure-cli",
+    "azure-cli@2.64.0": {
+      "last_modified": "2024-09-13T05:52:00Z",
+      "resolved": "github:NixOS/nixpkgs/673d99f1406cb09b8eb6feab4743ebdf70046557#azure-cli",
       "source": "devbox-search",
-      "version": "2.56.0",
+      "version": "2.64.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/gd3xqx7wv9pl3bppj3sg4y5axng8yhji-python3.11-azure-cli-2.56.0",
+              "path": "/nix/store/v9cikhvlw3qqxbsgza9gzcwp1cc0bfw2-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/3z3wacyz05n8grm5wca95v3lywfy9rvi-python3.11-azure-cli-2.56.0-dist"
+              "path": "/nix/store/zg2l337k86174mi44c08i3dk43qp0cnl-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/gd3xqx7wv9pl3bppj3sg4y5axng8yhji-python3.11-azure-cli-2.56.0"
+          "store_path": "/nix/store/v9cikhvlw3qqxbsgza9gzcwp1cc0bfw2-python3.12-azure-cli-2.64.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/3xp48sss3kgq8p46hgi6jyg7i6shy69j-python3.11-azure-cli-2.56.0",
+              "path": "/nix/store/dwfh9pkl46vx2shw4q3s05v6f4zigwj4-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/fafcaxngdrx2yja2vcksqq3jz27hx0lb-python3.11-azure-cli-2.56.0-dist"
+              "path": "/nix/store/03czlrzw2mi0aqggzwxwrdz8xihaxmbr-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/3xp48sss3kgq8p46hgi6jyg7i6shy69j-python3.11-azure-cli-2.56.0"
+          "store_path": "/nix/store/dwfh9pkl46vx2shw4q3s05v6f4zigwj4-python3.12-azure-cli-2.64.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/pg88r1fsbzggghbmy1ivxhzwcw69bfr5-python3.11-azure-cli-2.56.0",
+              "path": "/nix/store/lhz9x46mi2vcgxnp2rcsqrqacaky0pw5-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/cdkcn24ambydi8q56v05nrzz0d1rvzlz-python3.11-azure-cli-2.56.0-dist"
+              "path": "/nix/store/gpg1qv8f207hp684xhwnxdcga5slpzzf-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/pg88r1fsbzggghbmy1ivxhzwcw69bfr5-python3.11-azure-cli-2.56.0"
+          "store_path": "/nix/store/lhz9x46mi2vcgxnp2rcsqrqacaky0pw5-python3.12-azure-cli-2.64.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ylbh8k5lwnb7krjqxd0wz4zgysslg1l8-python3.11-azure-cli-2.56.0",
+              "path": "/nix/store/wmr7zm2z4vg1x4nqgif4a306q2kiszl6-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/hfryv8vazv1gzd3jvlh4kx5rsr01hb8k-python3.11-azure-cli-2.56.0-dist"
+              "path": "/nix/store/fzqpmz8hr52b37aldg354k79c0mjnx7n-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/ylbh8k5lwnb7krjqxd0wz4zgysslg1l8-python3.11-azure-cli-2.56.0"
+          "store_path": "/nix/store/wmr7zm2z4vg1x4nqgif4a306q2kiszl6-python3.12-azure-cli-2.64.0"
         }
       }
     },
@@ -537,6 +537,54 @@
             }
           ],
           "store_path": "/nix/store/ndwsp72a8mpxasyc3xx66b93k731zd9h-crossplane-cli-1.15.0"
+        }
+      }
+    },
+    "docker-machine@latest": {
+      "last_modified": "2024-01-14T03:55:27Z",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#docker-machine",
+      "source": "devbox-search",
+      "version": "0.16.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y3jpjcg75sspis7ygmwq3n6c4srr10vr-machine-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/y3jpjcg75sspis7ygmwq3n6c4srr10vr-machine-0.16.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g651bd75pq8mgrqiblmnm11brsvhm4d4-machine-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g651bd75pq8mgrqiblmnm11brsvhm4d4-machine-0.16.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7y2c26kjj1lx5a0gn4kyqxhwa6jsm47v-machine-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7y2c26kjj1lx5a0gn4kyqxhwa6jsm47v-machine-0.16.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kl47xam7k36h274w9wabzj7kxw143c2x-machine-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kl47xam7k36h274w9wabzj7kxw143c2x-machine-0.16.2"
         }
       }
     },
@@ -2072,6 +2120,54 @@
             }
           ],
           "store_path": "/nix/store/2r6xiywzp38nbw6vay8r4y6fy2wn2d27-teller-1.5.6"
+        }
+      }
+    },
+    "yarn@1.22.22": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#yarn",
+      "source": "devbox-search",
+      "version": "1.22.22",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6j0fflbrszc5k5kd7m36mn9ga6ds8zmr-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6j0fflbrszc5k5kd7m36mn9ga6ds8zmr-yarn-1.22.22"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d1f5qfjkc24v2ng46x0qjsbiwrdfa6d3-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d1f5qfjkc24v2ng46x0qjsbiwrdfa6d3-yarn-1.22.22"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vfi9zsfiwq5yia28nx04zdmr9ij6nhi3-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vfi9zsfiwq5yia28nx04zdmr9ij6nhi3-yarn-1.22.22"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9yd6frl42syv6vncdy619zblj2vg406g-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9yd6frl42syv6vncdy619zblj2vg406g-yarn-1.22.22"
         }
       }
     },
