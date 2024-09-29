@@ -56,7 +56,8 @@
     "kind@0.24.0",
     "docker-machine@latest",
     "yarn@1.22.22",
-    "azure-cli@2.64.0"
+    "azure-cli@2.64.0",
+    "ko@0.15.4"
   ],
   "shell": {
     "init_hook": [
