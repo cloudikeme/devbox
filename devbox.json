@@ -57,7 +57,8 @@
     "docker-machine@latest",
     "yarn@1.22.22",
     "azure-cli@2.64.0",
-    "ko@0.15.4"
+    "ko@0.15.4",
+    "terraform@1.9.6"
   ],
   "shell": {
     "init_hook": [
